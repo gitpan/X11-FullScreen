@@ -2,10 +2,7 @@ X11-FullScreen version 0.01
 ===========================
 
 Provides a very simple Xlib interface capable of creating borderless
-windows taking up an entire screen of an X windows display. Also uses
-Imlib2 to display still images. It was primarily created to be a
-simple window for the Video::Xine module for use with
-Video::PlaybackMachine.
+windows taking up an entire screen of an X windows display.
 
 INSTALLATION
 
@@ -21,11 +18,10 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   X11
-  Imlib2
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2005 by Stephen Nelson <stephen@cpan.org>.
+Copyright (C) 2005 by Stephen Nelson
 
 Portions of this code copied from "muxine" (C) 2003 Daniel
 Caujolle-Bert <segfault@club-internet.fr>.
