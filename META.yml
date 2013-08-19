@@ -1,10 +1,22 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         X11-FullScreen
-version:      0.03
-version_from: lib/X11/FullScreen.pm
-installdirs:  site
-requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+---
+abstract: 'Create a full-screen window with Xlib'
+author:
+  - 'Stephen Nelson, E<lt>stephenenelson@mac.com<gt>'
+build_requires:
+  ExtUtils::CBuilder: 0
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: X11-FullScreen
+provides:
+  X11::FullScreen:
+    file: lib/X11/FullScreen.pm
+    version: 0.99
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.99

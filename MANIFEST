@@ -1,13 +1,19 @@
+bin/show_image
+Build.PL
 ChangeLog
-FullScreen.xs
 inc/Devel/CheckLib.pm
 lib/X11/FullScreen.pm
-Makefile.PL
+lib/X11/FullScreen.xs
+make_rpm.sh
 MANIFEST
-perlobject.map
+META.json
+META.yml
 ppport.h
 README
+README.ubuntu
 t/2003stephencentauri.png
+t/kwalitee.t
 t/X11-FullScreen.t
 typemap
-META.yml                                 Module meta-data (added by MakeMaker)
+xt/pod.t
+xt/pod_coverage.t
