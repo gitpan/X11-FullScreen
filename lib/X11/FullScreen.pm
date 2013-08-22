@@ -4,7 +4,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = '0.992';
+our $VERSION = '0.993';
 
 require XSLoader;
 XSLoader::load('X11::FullScreen', $VERSION);
@@ -30,7 +30,7 @@ X11::FullScreen - Create a full-screen window with Xlib
   my $events = $xfs->check_event();
 
   # Display a still image
-  $xfs->display_still($window, "/path/to/my.png");
+  $xfs->display_still("/path/to/my.png");
   
   # Sync the X display
   $xfs->sync();
@@ -92,13 +92,15 @@ Returns the height in pixels of the displays.
 
 Returns the pixel aspect of the screen.
 
-=head3 clear( $window )
+=head3 clear()
 
 Clears the window.
 
-=head3 display_still( $image_file )
+=head3 display_still()
 
-Displays a still image on the given display on the given window.
+   $xfs->display_still( 'my_file.png' );
+
+Displays a still image. This can be any image format handled by imlib2.
 
 =head3 sync()
 
