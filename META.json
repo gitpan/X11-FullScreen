@@ -16,13 +16,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Devel::CheckLib" : "1.01",
-            "ExtUtils::PkgConfig" : "1.14",
             "Module::Build" : "0.3601"
          }
       },
       "configure" : {
          "requires" : {
+            "Devel::CheckLib" : "1.01",
+            "ExtUtils::PkgConfig" : "1.14",
             "Module::Build" : "0.3601"
          }
       },
@@ -51,6 +51,6 @@
          "web" : "https://github.com/stephenenelson/x11-fullscreen"
       }
    },
-   "version" : "0.993"
+   "version" : "0.994"
 }
 

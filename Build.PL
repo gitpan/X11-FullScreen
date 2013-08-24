@@ -7,11 +7,11 @@ use lib qw{inc}; use PkgConfBuild;
 
 my %module_build_args = (
   "build_requires" => {
-    "Devel::CheckLib" => "1.01",
-    "ExtUtils::PkgConfig" => "1.14",
     "Module::Build" => "0.3601"
   },
   "configure_requires" => {
+    "Devel::CheckLib" => "1.01",
+    "ExtUtils::PkgConfig" => "1.14",
     "Module::Build" => "0.3601"
   },
   "dist_abstract" => "Create a full-screen window with Xlib",
@@ -19,7 +19,7 @@ my %module_build_args = (
     "Stephen Nelson <stephenenelson\@mac.com>"
   ],
   "dist_name" => "X11-FullScreen",
-  "dist_version" => "0.993",
+  "dist_version" => "0.994",
   "license" => "perl",
   "module_name" => "X11::FullScreen",
   "recommends" => {},

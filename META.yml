@@ -3,12 +3,12 @@ abstract: 'Create a full-screen window with Xlib'
 author:
   - 'Stephen Nelson <stephenenelson@mac.com>'
 build_requires:
-  Devel::CheckLib: 1.01
-  ExtUtils::PkgConfig: 1.14
   Module::Build: 0.3601
   Test::Kwalitee: 0
   Test::More: 0
 configure_requires:
+  Devel::CheckLib: 1.01
+  ExtUtils::PkgConfig: 1.14
   Module::Build: 0.3601
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140'
@@ -26,4 +26,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/stephenenelson/x11-fullscreen
-version: 0.993
+version: 0.994
